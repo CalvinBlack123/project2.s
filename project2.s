@@ -123,3 +123,9 @@ syscall
 
 li $v0, 4
 la $a0, noValidOutput
+syscall
+j Exit
+
+Exit:
+li $v0, 10
+syscall
