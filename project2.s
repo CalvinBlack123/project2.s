@@ -90,3 +90,9 @@ j exp
 
 exp:
 ble $t8, 1, combine
+mul $t9, $t9, 30
+addi $t8, $t8, -1
+j exp
+
+combine:
+mul $s2, $t9, $s0
