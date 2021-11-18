@@ -21,3 +21,9 @@ move $t6, $t1
 j during
 
 skip:
+addi $t1, $t1, 1
+j before
+
+during:
+li $t7, -1
+la $t0,data
