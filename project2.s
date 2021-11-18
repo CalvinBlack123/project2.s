@@ -38,3 +38,8 @@ check:
 beq $s0, 9, gap
 beq $s0, 32, gap
 beq $s0, 10, convert
+beq $s0, 0, convert
+ble $s0, 47, special
+ble $s0, 57, integer
+ble $s0, 64, special
+ble $s0, 84, integer
