@@ -49,3 +49,10 @@ bge $s0, 117, special
 
 special:
 j invalid
+
+gap:
+addi $t2, $t2, 1
+mul $t3, $t3, $t7
+j during
+
+convert: 
