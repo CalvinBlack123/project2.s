@@ -43,3 +43,9 @@ ble $s0, 47, special
 ble $s0, 57, integer
 ble $s0, 64, special
 ble $s0, 84, integer
+ble $s0, 96, special
+ble $s0, 116, integer
+bge $s0, 117, special
+
+special:
+j invalid
