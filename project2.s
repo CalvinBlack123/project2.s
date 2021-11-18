@@ -96,3 +96,9 @@ j exp
 
 combine:
 mul $s2, $t9, $s0
+add $s1, $s1, $s2
+li $t9, 1
+j convert
+
+finish:
+li $v0, 4
